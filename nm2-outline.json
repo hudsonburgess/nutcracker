@@ -1,0 +1,24 @@
+{
+    "planRecord": {},
+    "farmRecord": {},
+    "fieldRecords": {
+        "soilRecords": [],
+        "soilTestRecords": [],
+        "cropRecords": [],
+        "other": [
+            { "seasonPlan": "?" },
+            { "manureApplication": "?" },
+            { "commercialApplication": "?" },
+            { "note": "?" },
+            { "limeApplication": "?" }
+        ]
+    },
+    "tractRecords": [],
+    "other": [
+        { "manureStorage": "?" },
+        { "animalGroup": "?" },
+        { "manureTest": "?" }
+    ],
+    "narrativeSection": {},
+    "narrativeRecord": {} 
+}
