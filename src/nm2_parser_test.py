@@ -33,5 +33,9 @@ class TestNM2Parser(unittest.TestCase):
         self.parser.add_key(test_dict, line)
         self.assertEqual(test_dict, { 'key': 'value' })
 
+    def test_create_section(self):
+        result = self.parser.create_section('title')
+        self.assertEqual(result, { 'title': {} })
+
 if __name__ == '__main__':
     unittest.main()

@@ -14,6 +14,9 @@ class NM2Parser:
     def is_data(self, line):
         return re.match('^.*:.*$', line) and not line.startswith('#')
 
+    def create_section(self, key_name):
+        return { key_name: {} }
+
     def add_key(self, json_obj, line):
         key_val = line.split(':')
         key = key_val[0].strip()
